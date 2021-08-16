@@ -20,7 +20,7 @@ For stability, choose `latest`.  For whatever I'm poking, choose `dev` but be aw
 From Docker Hub:
 
 ```sh
-docker pull lumel/subversion
+docker pull lumel/subversion-server
 ```
 From Source:
 

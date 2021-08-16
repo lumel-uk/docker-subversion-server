@@ -15,10 +15,10 @@ phases:
 
   build:
     commands:
-      - docker build -t $DOCKER_USERNAME/subversion:$DOCKER_TAG .
+      - docker build -t $DOCKER_USERNAME/subversion-server:$DOCKER_TAG .
 
   post_build:
     commands:
-      - docker push $DOCKER_USERNAME/subversion:$DOCKER_TAG
+      - docker push $DOCKER_USERNAME/subversion-server:$DOCKER_TAG
 
 
